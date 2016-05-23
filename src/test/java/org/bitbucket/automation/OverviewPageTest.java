@@ -29,12 +29,12 @@ public class OverviewPageTest {
         this.driver.quit();
     }
 
-    /*@Test
+    @Test
     public void testCreateRepository_AcrossButton() {
         String result = this.actions.doCreateRepository(this.driver);
 
         Assert.assertEquals(result.toLowerCase().contains("repo/create"), true);
-    }*/
+    }
 
     @Test
     public void testCreateRepository_AcrossMenu() {
